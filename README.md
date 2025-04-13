@@ -42,6 +42,12 @@ Used **HuggingFace Sentence Transformer** model `all-MiniLM-L6-v2` to generate e
 ### Vector DB
 Used **FAISS DB** to store and retrieve embedded document sections.
 
+### LLM Model
+Used **gpt-4o**
+
+### Agent Framework
+Used **SmolAgents**
+
 ---
 
 ## How I Approached Tariff Calculations
