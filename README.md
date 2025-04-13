@@ -1,6 +1,6 @@
 # Tariff Calculator for Shipping Companies
 
-Configuration Snippet
+## Configuration Snippet
 
 This section controls how the tariff calculator behaves during execution.
 Adjust these values based on your environment and setup:
@@ -29,6 +29,8 @@ Adjust these values based on your environment and setup:
     Model name, e.g., gpt-4 or the name of your deployed Azure OpenAI model.
 
 Make sure these values are filled out before execution. They control whether new embeddings are generated, which model is used, and how your documents are processed.
+
+
 ## Technical Explanation
 
 ### Document Parsing
