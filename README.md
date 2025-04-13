@@ -1,5 +1,34 @@
 # Tariff Calculator for Shipping Companies
 
+Configuration Snippet
+
+This section controls how the tariff calculator behaves during execution.
+Adjust these values based on your environment and setup:
+
+    are_you_running_code_first_time = True
+    Set to True if you're running the script for the first time.
+    This will parse the document, create embeddings, and build the vector index.
+    Set to False if you want to reuse a previously created index (for faster execution).
+
+    file_path = ""
+    Path to your local or cloud-hosted tariff document (PDF or text format).
+
+    llama_cloud_api_key = ""
+    API key for accessing LlamaParse (used to parse document content).
+
+    openai_api_key = ""
+    API key for calling OpenAI or Azure OpenAI models.
+
+    azure_endpoint = ""
+    Azure OpenAI-specific endpoint, e.g., https://<your-resource-name>.openai.azure.com/.
+
+    api_version = ""
+    Azure OpenAI API version, e.g., 2023-05-15.
+
+    model = ""
+    Model name, e.g., gpt-4 or the name of your deployed Azure OpenAI model.
+
+Make sure these values are filled out before execution. They control whether new embeddings are generated, which model is used, and how your documents are processed.
 ## Technical Explanation
 
 ### Document Parsing
